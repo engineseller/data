@@ -17,7 +17,19 @@ A list of free, public, forward proxy servers.
 >> https://raw.githubusercontent.com/danielmiessler/SecLists/master/Usernames/xato-net-10-million-usernames.txt
 ```
 
-## Proxies
+## Proxy SOCKS4
 ```
->> https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt
+>> http://pubproxy.com/api/proxy?limit=100&format=txt&http=true&type=socks4
+```
+## Proxy SOCKS5
+```
+>> http://pubproxy.com/api/proxy?limit=100&format=txt&http=true&type=socks5
+```
+## Proxy HTTP
+```
+>> http://pubproxy.com/api/proxy?limit=100&format=txt&http=true&type=http
+```
+## Proxy HTTP from the DE that support https.
+```
+>> http://pubproxy.com/api/proxy?limit=100&format=txt&http=true&country=DE&type=http
 ```
